@@ -1,0 +1,65 @@
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#hamburguer{
+    color: rgb(2, 2, 66);
+    display: block;
+    text-align: start;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.header-nav.show {
+    display: block;
+}
+
+.header-nav{
+    display: none;
+}
+
+.header-img{
+    /* background-image: radial-gradient(#051A59, var(--primary-color)); */
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav a{
+    display: block;
+    text-align: start;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+/*     background-color: var(--primary-color); */
+
+}
+
+.header-nav a:hover{
+    background-color: color-mix(in srgb, white 10%, var(--primary-color) 90%);
+}
+
+.lista li{
+    text-decoration: dashed;
+}
+
+
+@media screen and (min-width: 768px){
+
+    #hamburguer{
+        display: none;
+
+    }
+
+    .header-nav{
+        display: flex;
+        gap: 2rem;
+        justify-content: end;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
