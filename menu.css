@@ -7,7 +7,7 @@
 }
 
 #hamburguer{
-    color: rgb(2, 2, 66);
+    color: rgb(109, 0, 0);
     display: block;
     text-align: start;
     padding: 0.3em;
@@ -15,8 +15,18 @@
     font-size: 2em;
 }
 
+.container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(4, 0, 66);
+}
+
+
 .header-nav.show {
     display: block;
+    z-index: 1;
+    width: 100%;
 }
 
 .header-nav{
@@ -43,8 +53,19 @@
     background-color: color-mix(in srgb, white 10%, var(--primary-color) 90%);
 }
 
+.lista{
+    list-style: none;
+
+}
+
+
+
 .lista li{
     text-decoration: dashed;
+}
+
+.texto{
+    color: white;
 }
 
 
@@ -62,4 +83,9 @@
         margin-right: 2rem;
         margin-left: 2rem;
     }
+
+    .texto{
+        color: white;
+    }
+
 }
