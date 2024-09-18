@@ -24,7 +24,7 @@ function scrollPadding(id) {
 
   if (itens_menu.classList.contains('show')) {
     padding.style.paddingTop = '50px';
-    itens_menu.classList.toggle('show')
+    itens_menu.classList.toggle('show');
 }else{
   padding.style.paddingTop = 0;
 }

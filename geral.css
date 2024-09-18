@@ -1,4 +1,17 @@
 
-.containerPadding{
-    padding-top: 50px;
+.padrao_todo {
+    font-family: helvetica ;
+    background-color: rgba(7, 0, 48, 0.075); 
+    top: 5px;
+
+}
+
+.espaços{
+    padding-bottom: 50px;
+    padding: 20px;
+}
+
+.titulos{
+    text-align: center;
+    padding-bottom: 20px;
 }

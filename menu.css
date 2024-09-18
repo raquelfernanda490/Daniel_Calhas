@@ -7,7 +7,7 @@
 }
 
 #hamburguer{
-    color: rgb(109, 0, 0);
+    color: rgb(218, 216, 228);
     display: block;
     text-align: start;
     padding: 0.3em;
@@ -15,22 +15,26 @@
     font-size: 2em;
 }
 
-.container{
+.container_menu{
     position: sticky;
-    top: 0;
+    top:0px;
     z-index: 1;
-    background-color: rgb(4, 0, 66);
+    background-color: rgb(45, 43, 53);
 }
 
 
 .header-nav.show {
     display: block;
-    z-index: 1;
-    width: 100%;
+
 }
 
 .header-nav{
     display: none;
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+
 }
 
 .header-img{
@@ -44,18 +48,20 @@
     text-align: start;
     text-decoration: none;
     padding: 0.5rem;
-    color: rgb(0, 0, 0);
+    color:  rgb(218, 216, 228);
 /*     background-color: var(--primary-color); */
 
 }
 
 .header-nav a:hover{
-    background-color: color-mix(in srgb, white 10%, var(--primary-color) 90%);
+    background-color:rgba(218, 216, 228, 0.575);
+    transition: 0.3;
 }
 
 .lista{
     list-style: none;
-
+    padding: 0;
+    width: 100%;
 }
 
 
