@@ -1,0 +1,91 @@
+/* Formulário */
+.form_geral {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form_geral label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form_geral input, .form_geral textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form_geral textarea {
+    resize: none;
+    height: 100px;
+}
+
+.button_form {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button_form a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366; /* Cor característica do WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button_form a:hover {
+    background-color: #1ebe57; /* Cor mais escura ao passar o mouse */
+}
+
+.button_form img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.button_saibaMais {
+    background-color:  #333;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_saibaMais:hover {
+    background-color: #464545;
+}
+@media (max-width: 768px) {
+    #ComoCont form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #ComoCont input, #contact textarea {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    
+    #ComoCont button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

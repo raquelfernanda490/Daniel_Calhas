@@ -1,17 +1,33 @@
-
-.padrao_todo {
-    font-family: helvetica ;
-    background-color: rgba(7, 0, 48, 0.075); 
-    top: 5px;
-
+/* Reset básico e estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.espaços{
-    padding-bottom: 50px;
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+.containerPadding {
     padding: 20px;
+    text-align: center;
 }
 
-.titulos{
-    text-align: center;
-    padding-bottom: 20px;
+.espaços {
+    margin-bottom: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .containerPadding {
+        padding: 10px;
+    }
 }

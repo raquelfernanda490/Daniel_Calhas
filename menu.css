@@ -88,10 +88,17 @@
         justify-content: end;
         margin-right: 2rem;
         margin-left: 2rem;
+        
     }
 
     .texto{
         color: white;
+    }
+
+    .container_menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
 }
